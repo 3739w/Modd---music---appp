@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood Music</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Select Your Mood</h1>
+    <div class="buttons">
+      <button onclick="suggestMusic('happy')">Happy</button>
+      <button onclick="suggestMusic('sad')">Sad</button>
+      <button onclick="suggestMusic('romantic')">Romantic</button>
+      <button onclick="suggestMusic('focused')">Focused</button>
+    </div>
+    <div id="suggestion" class="suggestion"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
